@@ -14,3 +14,12 @@ footer {
 .navbar{
     background-color: #ed109c;
 }
+h1 {
+    animation: blink-animation 1s steps(5, start) infinite; /* Aplica la animación de parpadeo */
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden; /* Alterna la visibilidad del texto */
+    }
+}
