@@ -9,3 +9,18 @@ body {
 footer {
     margin-top: 20px;
 }
+.navbar {
+    background-color: black;
+    font-family: 'Tahoma', sans-serif; 
+}
+.navbar-brand {
+    color: #ffffff !important; 
+    font-family: 'Tahoma', serif; 
+}
+.navbar-nav > li > a {
+    color: #ffffff !important; 
+    font-family: 'Tahoma', serif;
+}
+.navbar-nav > li > a:hover {
+    color: #ffcc00 !important; 
+}
